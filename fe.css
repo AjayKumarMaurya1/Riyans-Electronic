@@ -94,6 +94,7 @@ height: 48px;
  nav ul {
      display: flex;
      gap: 65px;
+     flex-wrap: wrap;
      position: relative;
      border: none;
      margin: 0;
@@ -155,11 +156,12 @@ height: 48px;
     gap: 20px;
     flex-wrap: wrap;
     line-height:48px ;
+    margin: 8px;
  }
 
  .log-btn button {
     
-     color: rgba(255, 234, 0, 0.87);
+     color:white;
      width: 48px;
      height: 32px;
      display: flex;
@@ -167,7 +169,7 @@ height: 48px;
      font-weight: bold;
      border: none;
      border-radius: 10%;
-     background-color: rgba(235, 22, 164, 0.843);
+     background-color: #1502ea;
 
  }
 
