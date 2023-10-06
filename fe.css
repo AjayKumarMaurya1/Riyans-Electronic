@@ -275,15 +275,15 @@ border: none;
 
  .hero { 
   display: flex;
-     gap: 50px;
-     padding: 24px;
-justify-content: space-between;
+     gap: 32px;
+     padding-top: 10px;
+justify-content: space-evenly;
 flex: 1;
 flex-wrap: wrap;
  }
 
  .hero1 {
-     padding: 14px;
+     padding: 10px;
      margin: 0;
      background-color: rgba(31, 147, 182, 0.639);
      border-radius: 20px;
