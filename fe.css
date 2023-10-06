@@ -286,6 +286,7 @@ flex-wrap: wrap;
  }
 
  .hero1 {
+    width: 20%;
      padding: 10px;
      margin: 0;
      background-color: rgba(31, 147, 182, 0.639);
