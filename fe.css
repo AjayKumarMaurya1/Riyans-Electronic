@@ -176,7 +176,7 @@ height: 48px;
 
 /* slider */
 .slide{
-    margin-top: 10px;
+   
     display: flex;
       justify-content: space-between;
    flex-wrap: wrap;
@@ -214,13 +214,13 @@ margin-top:40px;
 }
 
 .slideimg{
-    
+    margin-top: 10px;
     width: 50%;
     display: flex;
     justify-content: space-between;
     
     flex-direction: column;
-    align-items:flex-end;
+    /* align-items:flex-end; */
 }
 .slideimg img{
 border-radius: 0 0 150px 0;
