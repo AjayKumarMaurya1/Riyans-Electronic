@@ -49,6 +49,7 @@ body::-webkit-scrollbar-corner{
 
  .man h1 {
      color: rgb(8, 8, 8);
+     align-items: center;
  }
 
  .man1 {
@@ -152,11 +153,11 @@ height: 48px;
      display: flex;
      justify-content: space-around;
     flex-wrap: wrap;
-    line-height:48px ;
+    
  }
 
  .log-btn button {
-
+    line-height:32px ;
      color: rgba(255, 234, 0, 0.87);
      width: 48px;
      height: 32px;
