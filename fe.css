@@ -80,9 +80,9 @@ body::-webkit-scrollbar-corner{
  /* nav bar */
 
  nav {
-    width: 95%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
      padding: 0;
      margin: 0;
      background-color: rgba(0, 0, 0, 0.767);
@@ -150,16 +150,18 @@ height: 48px;
  .log-btn {
 
      display: flex;
-     justify-content: flex-end;
+     justify-content: space-around;
     flex-wrap: wrap;
+    line-height:48px ;
  }
 
  .log-btn button {
 
      color: rgba(255, 234, 0, 0.87);
-     width: auto;
+     width: 48px;
      height: 32px;
      display: flex;
+     align-items: center;
      font-weight: bold;
      border: none;
      border-radius: 10%;
