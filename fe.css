@@ -226,6 +226,7 @@ margin-top:40px;
     /* align-items:flex-end; */
 }
 .slideimg img{
+    width: 90%;
 border-radius: 0 0 150px 0;
     height: 450px;
     padding-right: 30px;
