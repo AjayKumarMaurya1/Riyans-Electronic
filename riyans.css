@@ -1,266 +1,263 @@
 * {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 .show{
-   display:block;
+  display:flex;
 }
 body {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    font-family: 'Open Sans', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: white;
+   font-family: 'Open Sans', sans-serif;
 }
 body::-webkit-scrollbar{
-   color:transparent;
+  color:transparent;
 width: 10px;
 }
 body::-webkit-scrollbar-thumb{
-   background: linear-gradient(red,white,green);
+  background: linear-gradient(red,white,green);
 border-radius: 40px;
 
 }
 
 body::-webkit-scrollbar-track{
 
-   background: black;
- 
+  background: black;
+
 } 
 body::-webkit-scrollbar-corner{
 
-   background:red;
+  background:red;
 }
 
 
 .wapper{
-   max-width:90%;
-   margin:0 auto;
-   position: relative;
+ width:90%;
+  margin:auto;
+  position: relative;
 }
 
 header {
-    width: 100vw;
-    height: 80px;
-      
+   width: 90vw;
+   height: 80px;
+     
 align-items: center;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(251, 251, 251, 0.762);
+   display: flex;
+   justify-content: space-between;
+   background-color: rgba(251, 251, 251, 0.762);
 }
 
 .man {
-    display: flex;
-   
-    align-items: center;
-    gap: 90px;
+   display: flex;
+  
+   align-items: center;
+   gap: 90px;
 }
 
 .man img {
-    border-radius: 50%;
+   border-radius: 50%;
 
-    width: 65px;
-    height: 65px;
+   width: 65px;
+   height: 65px;
 }
 
 .man h1 {
-    color: rgb(8, 8, 8);
-   margin-top:20px ;
-   font-family: 'Playfair Display', serif;
+   color: rgb(8, 8, 8);
+  margin-top:20px ;
+  font-family: 'Playfair Display', serif;
 }
 
 .man1 {
-    display: flex;
-    padding:0 20px;
-    align-items: center;
-    flex-wrap: wrap;
+   display: flex;
+   padding:0 20px;
+   align-items: center;
+   flex-wrap: wrap;
 }
 
 .man1 button {
-    width: 40px;
-    height: 40px;
-    border-radius: 0 10px 10px 0;
-    padding: 6px;
-    align-items: center;
-    border:1px solid;
-    border-left: none;
-    background-color:lightblue;
+   width: 40px;
+   height: 40px;
+   border-radius: 0 10px 10px 0;
+   padding: 6px;
+   align-items: center;
+   border:1px solid;
+   border-left: none;
+   background-color:lightblue;
 }
 
 .man1 input {
 width:300px ;
-    border-radius: 10px 0 0 10px;
-    height: 40px;
-    
-    border:1px solid;
-    border-right: none;
+   border-radius: 10px 0 0 10px;
+   height: 40px;
+   
+   border:1px solid;
+   border-right: none;
 
-    background-color:whitesmoke;
+   background-color:whitesmoke;
 }
 .navbar{
-   width: 100%;
-   margin-top: 48px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+  width: 100%;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 /* hembirg---------- */
 
 #navhembirg{
-   display: none;
+  display: none;
 }
 
 /* nav bar */
 
 nav {
-   width: 60%;
-   display: flex;
-   justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    background-color: rgba(0, 0, 0, 0.767);
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+   padding: 0;
+   margin: 0;
 height: 48px;
 
 }
 
 nav ul {
-    display: flex;
-    gap: 65px;
-    flex-wrap: wrap;
-    position: relative;
-    border: none;
-    margin: 0;
-    line-height: 48px;
+   display: flex;
+   gap: 65px;
+   flex-wrap: wrap;
+   position: relative;
+   border: none;
+   margin: 0;
+   line-height: 48px;
 }
 
 nav ul li {
-    list-style: none;
-    font-size: 23px;
-    font-family: 'Playfair Display', serif;
+   list-style: none;
+   font-size: 23px;
+   font-family: 'Playfair Display', serif;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: whitesmoke;
+   text-decoration: none;
+   color: blue;
 
 
 }
 
 nav ul li a:hover {
 
-    color: whitesmoke;
-    
-    background-color: rgba(201, 13, 13, 0.835);
-    transition: .5s;
+   color: whitesmoke;
+   
+   background-color: rgba(201, 13, 13, 0.835);
+   transition: .5s;
 }
 .na ul {
-    display: none;
-    
+   display: none;
+   
 }
 
 
 nav ul li:hover .na ul {
-    display:flex;
-    flex-direction: column;
-    position: absolute;
-    
-    
+   display:flex;
+   flex-direction: column;
+   position: absolute;
+   
+   
 z-index: 1;
 }
 
 nav ul li:hover .na ul li {
-    border: solid wheat;
-    background-color: rgba(6, 6, 6, 0.595);
+   border: solid wheat;
+   background-color: rgba(6, 6, 6, 0.595);
 font-family: 'Playfair Display', serif;
 }
 
 nav ul li:hover .na ul li a {
-    font-size: 26px;
-    
-    color: whitesmoke;
+   font-size: 26px;
+   
+   color: whitesmoke;
 }
 
 .log-btn {
 
-    display: flex;
+   display: flex;
 align-items: center;
-   gap: 20px;
-   flex-wrap: wrap;
-   
-   margin-right: 18px; 
+  gap: 20px;
+  flex-wrap: wrap;
+  
+  margin-right: 18px; 
 }
 
 .log-btn button {
-   
-    color:white;
-    width: 75px;
-    height: 32px;
-    display: flex;
-   line-height: 32px;
-   
-    font-weight: bold;
-    border: none;
-    border-radius: 10%;
-    background-color: #6d63d2;
+   color:white;
+   width: 75px;
+   height: 32px;
+   display: flex;
+   word-break: break-all;
+  line-height: 32px;
+justify-content: center;
+   border: none;
+   border-radius: 10%;
+   background-color: #6d63d2;
 font-family: 'Playfair Display', serif;
 
 }
 /* slide----- */
 .slide{
-   margin: 32px 0;
+  margin: 32px 0;
 }
 
 
 /* hero part   */
 section {
-  
-    width: 100%;
-    height: 100%;
-    border-radius: 20px 20px 0 0;
-    background-color: rgba(165, 164, 164, 0.501);
+ 
+   width: 100%;
+ 
+   border-radius: 20px 20px 0 0;
+   background-color: rgba(165, 164, 164, 0.501);
 }
 
 .hero { 
- display: flex;
-    gap: 32px;
-    padding-top: 30px;
+display: flex;
+justify-content: center;
+   gap: 32px;
+   padding-top: 27px;
 justify-content: space-evenly;
-flex: 1;
 flex-wrap: wrap;
 }
 
 .hero1 {
-   width: 20%;
-    padding: 10px;
-    margin: 0;
-    background-color: rgba(31, 147, 182, 0.639);
-    border-radius: 20px;
+  width: 20%;
+   padding: 10px;
+   margin: 0;
+   background-color: rgba(31, 147, 182, 0.639);
+   border-radius: 20px;
 }
 
 .hero1 h3 {
-    margin: 0;
-    padding-top: 20px;
+   margin: 0;
+   padding-top: 20px;
 }
 
 .hero1 p {
-    margin: 0;
-    padding-top: 20px;
+   margin: 0;
+   padding-top: 20px;
 }
 
 .hero1 img {
-    width: 100%;
-
-
-    border-radius: 20px 20px 0 0;
+   width: 90%;
+   margin: auto;
+   border-radius: 20px 20px 0 0;
 }
 
 .hero1btn{
 
-    
-    border: none;
-    border-radius: 10px;
-    color: blue;
-    background-color: antiquewhite;
-    height: 43px;
+   
+   border: none;
+   border-radius: 10px;
+   color: blue;
+   background-color: antiquewhite;
+   height: 42px;
 
 
 }
@@ -268,35 +265,35 @@ flex-wrap: wrap;
 
 
 #pro {
-    width: 200px;
-    height: 50px;
-    color: #1502ea;
-    border: none;
-    display: flex;
-  align-items: flex-end;
-   flex-direction: row;
-   justify-content: center;
+   width: 200px;
+   /* height: 50px; */
+   color: #1502ea;
+   border: none;
+   display: flex;
+ align-items: flex-end;
+  flex-direction: row;
+  justify-content: center;
 
 font-size: 20px;
 }
 
 .hero3 {
 
-    padding: 14px;
-    margin: 0;
-   background-image: url(https://picsum.photos/seed/ux/480/270);
-    border-radius: 20px;
-    display: flex;
-       align-items: flex-end;
-   flex-direction: column;
-   justify-content: space-between;
+   padding: 14px;
+   margin: 0;
+  background-image: url(https://picsum.photos/seed/ux/480/270);
+   border-radius: 20px;
+   display: flex;
+      align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
 
 footer{
-   background-color: black;
-   width: 100vw;
-   height:20svh;
+  background-color: black;
+  width: 100vw;
+  height:20svh;
 }
 
 
@@ -304,8 +301,8 @@ footer{
 @media only screen and (min-width:1100px) and (max-width:1500px){
 
 .wapper{
-   max-width: 95%;
-  
+  width: 95%;
+ 
 }
 }
 /* media query end for leptop */
@@ -314,9 +311,9 @@ footer{
 @media only screen and (min-width:1600px) and (max-width:1960px){
 
 .wapper{
-   max-width: 85%;
-  
-  
+width: 85%;
+ margin: auto;
+ 
 }
 }
 /*  end extra larg screen */
@@ -326,15 +323,15 @@ footer{
 @media only screen and (min-width:700px) and (max-width:1000px) {
 
 .wapper{
-   max-width: 100%;
- 
+width: 95%;
+margin: auto;
 } 
 
 .man{
-   gap: 15px;
+  gap: 15px;
 }
 .man h1{
-   font-size: 28px;
+  font-size: 28px;
 }
 .man1 input{
 width: 200px;
@@ -343,10 +340,10 @@ width: 200px;
 
 nav ul{
 
-   gap: 20px;
+  gap: 20px;
 }
 .log-btn{
-   margin-right: 10px;
+  margin-right: 10px;
 }
 
 }
@@ -355,22 +352,22 @@ nav ul{
 @media only screen and (min-width:556px) and (max-width:700px){
 
 .wapper{
-   max-width: 99%;
-  margin:0 auto;
-  
+ width: 95%;
+ margin:0 auto;
+ 
 }
 .man{
-   gap: 5px;
-   margin: 0;
+  gap: 5px;
+  margin: 0;
 }
 .man img {
 
-    width: 52px;
-    height: 52px;
+   width: 52px;
+   height: 52px;
 }
 
 .man h1{
-   font-size: 24px;
+  font-size: 24px;
 }
 .man1 input{
 width: 150px;
@@ -385,18 +382,18 @@ border: none;
 }
 
 nav{
-  display: none;
-  flex-direction: column;
-  border: 1px solid;
-  height: 250px;
+ display: none;
+ flex-direction: column;
+ border: 1px solid;
+ height: 250px;
 padding-top: 10px;
 
-  width:100px;
-  position: absolute;
-  top: 40px;
-  left: 50px;
-  z-index: 1;
-  background-color: black;
+ width:100px;
+ position: absolute;
+ top: 40px;
+ left: 50px;
+ z-index: 1;
+ background-color: black;
 }
 nav ul{
 gap: 35px;
@@ -404,22 +401,25 @@ line-height: 12px;
 padding-left: 5px;
 }
 nav ul li:hover .na ul {
-   
-    position: absolute;
-    top: auto;
-    left:100px;
-     background-color: black;
+  
+   position: absolute;
+   top: auto;
+   left:100px;
+    background-color: black;
 height: 200px;
 
 }
 nav ul li:hover .na ul li{
-   height: 40px;
-   background: transparent;
- padding-top: 20px;
- border: none;
+  height: 40px;
+  background: transparent;
+padding-top: 20px;
+border: none;
 }
 nav ul li:hover .na ul li a{
-   font-size: 18px;
+  font-size: 18px;
+}
+nav ul li a{
+  color: white;
 }
 }
 
@@ -427,36 +427,37 @@ nav ul li:hover .na ul li a{
 @media only screen and (min-width:300px) and (max-width:556px){
 
 .wapper{
-   max-width: 100%;
-  margin:0 auto;
-  
+ width: 95%;
+ margin:0 auto;
+ 
 }
 
 .man{
-   gap: 3px;
-   margin: 0;
+  gap: 3px;
+  margin: 0;
 }
 .man img {
 
-    width: 42px;
-    height: 42px;
+   width: 42px;
+   height: 42px;
 }
 
 .man h1{
-   font-size: 20px;
+  font-size: 20px;
 }
 .man1 button{
-   width:42px;
-   height: 42px;
-   border: none;
-   background: transparent;
+  width:42px;
+  height: 42px;
+  border: none;
+  background: transparent;
 }
 .man1 input{
-width: 200px;
+width: 260px;
 display: none;
 position:absolute;
-background-color:rgb(174, 35, 35);
-top: 90px;
+background-color:rgb(238, 234, 234);
+top: 100px;
+border-radius: 10px;
 border: 1px solid;
 right: 30px;
 }
@@ -471,18 +472,18 @@ background: transparent;
 
 
 nav{
-  display: none;
-  flex-direction: column;
-  border: 1px solid;
-  height: 250px;
+ display: none;
+ flex-direction: column;
+ border: 1px solid;
+ height: 250px;
 padding-top: 10px;
 
-  width:100px;
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  z-index: 1;
-  background-color: black;
+ width:100px;
+ position: absolute;
+ top: 50px;
+ left: 50px;
+ z-index: 1;
+ background-color: black;
 }
 nav ul{
 gap: 35px;
@@ -490,59 +491,78 @@ line-height: 12px;
 padding-left: 5px;
 }
 nav ul li:hover .na ul {
-   
-    position: absolute;
-    top: auto;
-    left:100px;
-     background-color: black;
+  
+   position: absolute;
+   top: auto;
+   left:100px;
+    background-color: black;
 height: 200px;
 
 }
 nav ul li:hover .na ul li{
-   height: 40px;
-   background: transparent;
- padding-top: 20px;
- border: none;
+  height: 40px;
+  background: transparent;
+padding-top: 20px;
+border: none;
 }
 nav ul li:hover .na ul li a{
-   font-size: 18px;
+  font-size: 18px;
+}
+nav ul li a{
+  color: white;
 }
 
+.hero{
+
+  margin-top: 10px;
+}
+.hero1{
+  
+  width: 70%;
+}
+.hero1 h3{
+  padding-top: 0;
+  font-size: 18px;
+}
+.hero1 p{
+  padding-top: 0;
+  font-size: 15px;
+}
 }
 
 
 @media only screen and (min-width:150px) and (max-width:307px){
 
 .wapper{
-   max-width: 100%;
-  margin:0 auto;
-  
+ width: 100%;
+ margin:0 auto;
+ 
 }
 .man{
-   gap: 3px;
-   margin: 0;
+  gap: 3px;
+  margin: 0;
 }
 .man img {
 
-    width: 32px;
-    height: 32px;
+   width: 32px;
+   height: 32px;
 }
 
 .man h1{
-   font-size: 12px;
-   margin: 0;
-  
+  font-size: 12px;
+  margin: 0;
+ 
 }
 .man1{
-   padding: 0;
+  padding: 0;
 }
 .man1 button{
-   width:28px;
-   height: 42px;
-   margin: 0;
-   padding: 0;
-   border: none;
-   background: transparent;
+  width:28px;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
 }
 .man1 input{
 width: 150px;
@@ -550,13 +570,14 @@ display: none;
 position:absolute;
 background-color:rgb(251, 248, 248);
 top: 90px;
+border-radius: 10px;
 border: 1px solid;
 right: 30px;
 }
 .navbar{
-   margin-top: 48px;
-   display: flex;
-   justify-content: space-between;
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
 }
 /* hemebirg---------- */
 #navhembirg{
@@ -574,18 +595,18 @@ padding: 3px;
 
 
 nav{
-  display: none;
-  flex-direction: column;
-  border: 1px solid;
-  height: 250px;
+ display: none;
+ flex-direction: column;
+ border: 1px solid;
+ height: 250px;
 padding-top: 10px;
 
-  width:100px;
-  position: absolute;
-  top: 45px;
-  left: 40px;
-  z-index: 1;
-  background-color: black;
+ width:100px;
+ position: absolute;
+ top: 45px;
+ left: 40px;
+ z-index: 1;
+ background-color: black;
 }
 nav ul{
 gap: 35px;
@@ -593,22 +614,24 @@ line-height: 12px;
 padding-left: 5px;
 }
 nav ul li:hover .na ul {
-   
-    position: absolute;
-    top: auto;
-    left:100px;
-     background-color: black;
+  
+   position: absolute;
+   top: auto;
+   left:100px;
+    background-color: black;
 height: 200px;
 
 }
 nav ul li:hover .na ul li{
-   height: 40px;
-   background: transparent;
- padding-top: 20px;
- border: none;
+  height: 40px;
+  background: transparent;
+padding-top: 20px;
+border: none;
 }
 nav ul li:hover .na ul li a{
-   font-size: 18px;
+  font-size: 18px;
 }
-
+nav ul li a{
+  color: white;
+}
 }
